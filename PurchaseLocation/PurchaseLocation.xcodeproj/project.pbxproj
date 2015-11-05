@@ -15,6 +15,7 @@
 		24CAB7591BEBCA5C00B0DDE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB7561BEBCA5C00B0DDE0 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		24CAB75B1BEBCABF00B0DDE0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CAB75A1BEBCABF00B0DDE0 /* CoreLocation.framework */; };
 		24CAB75D1BEBCAC800B0DDE0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CAB75C1BEBCAC800B0DDE0 /* MapKit.framework */; };
+		24CAB7601BEBD4DA00B0DDE0 /* TSZAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB75F1BEBD4DA00B0DDE0 /* TSZAnnotation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		24CAB7561BEBCA5C00B0DDE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24CAB75A1BEBCABF00B0DDE0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		24CAB75C1BEBCAC800B0DDE0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		24CAB75E1BEBD4DA00B0DDE0 /* TSZAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZAnnotation.h; sourceTree = "<group>"; };
+		24CAB75F1BEBD4DA00B0DDE0 /* TSZAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		24CAB7531BEBCA5C00B0DDE0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				24CAB75E1BEBD4DA00B0DDE0 /* TSZAnnotation.h */,
+				24CAB75F1BEBD4DA00B0DDE0 /* TSZAnnotation.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 		24CAB72D1BEBC80F00B0DDE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TSZ;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Tsz;
 				TargetAttributes = {
@@ -199,6 +205,7 @@
 			files = (
 				24CAB7581BEBCA5C00B0DDE0 /* ViewController.m in Sources */,
 				24CAB73A1BEBC81000B0DDE0 /* main.m in Sources */,
+				24CAB7601BEBD4DA00B0DDE0 /* TSZAnnotation.m in Sources */,
 				24CAB7591BEBCA5C00B0DDE0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
