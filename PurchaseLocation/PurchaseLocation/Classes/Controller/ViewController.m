@@ -27,5 +27,13 @@
 #pragma mark  手势  添加大头针的方法
 - (void)addAnnotationInMapView:(UITapGestureRecognizer *)tap{
     
+    //1、获取位置
+    CGPoint point = [tap locationInView:tap.view];
+    
+    //2、大头针初始化
+    
+    
+    //3、把点坐标转换成 经纬度
+    
 }
 @end
