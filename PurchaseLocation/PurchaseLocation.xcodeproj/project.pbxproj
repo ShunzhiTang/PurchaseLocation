@@ -15,7 +15,14 @@
 		24CAB7591BEBCA5C00B0DDE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB7561BEBCA5C00B0DDE0 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		24CAB75B1BEBCABF00B0DDE0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CAB75A1BEBCABF00B0DDE0 /* CoreLocation.framework */; };
 		24CAB75D1BEBCAC800B0DDE0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CAB75C1BEBCAC800B0DDE0 /* MapKit.framework */; };
-		24CAB7601BEBD4DA00B0DDE0 /* TSZAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB75F1BEBD4DA00B0DDE0 /* TSZAnnotation.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB7631BEBDF9900B0DDE0 /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB7621BEBDF9900B0DDE0 /* UIView+AdjustFrame.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB7661BEBE0D600B0DDE0 /* TSZPurchaseAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB7651BEBE0D600B0DDE0 /* TSZPurchaseAnnotation.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB7691BEBE25600B0DDE0 /* TSZPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB7681BEBE25600B0DDE0 /* TSZPurchase.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB76C1BEC51F900B0DDE0 /* TSZPurchaseAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB76B1BEC51F900B0DDE0 /* TSZPurchaseAnnotationView.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB7701BEC523400B0DDE0 /* TSZDetailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB76F1BEC523400B0DDE0 /* TSZDetailAnnotation.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB7731BEC537400B0DDE0 /* TSZDetailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB7721BEC537400B0DDE0 /* TSZDetailAnnotationView.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB7761BEC55E500B0DDE0 /* TSZDescribeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24CAB7751BEC55E500B0DDE0 /* TSZDescribeView.m */; settings = {ASSET_TAGS = (); }; };
+		24CAB7781BEC566300B0DDE0 /* TSZDescribeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24CAB7771BEC566300B0DDE0 /* TSZDescribeView.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +38,21 @@
 		24CAB7561BEBCA5C00B0DDE0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24CAB75A1BEBCABF00B0DDE0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		24CAB75C1BEBCAC800B0DDE0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		24CAB75E1BEBD4DA00B0DDE0 /* TSZAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZAnnotation.h; sourceTree = "<group>"; };
-		24CAB75F1BEBD4DA00B0DDE0 /* TSZAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZAnnotation.m; sourceTree = "<group>"; };
+		24CAB7611BEBDF9900B0DDE0 /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		24CAB7621BEBDF9900B0DDE0 /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		24CAB7641BEBE0D600B0DDE0 /* TSZPurchaseAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZPurchaseAnnotation.h; sourceTree = "<group>"; };
+		24CAB7651BEBE0D600B0DDE0 /* TSZPurchaseAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZPurchaseAnnotation.m; sourceTree = "<group>"; };
+		24CAB7671BEBE25600B0DDE0 /* TSZPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZPurchase.h; sourceTree = "<group>"; };
+		24CAB7681BEBE25600B0DDE0 /* TSZPurchase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZPurchase.m; sourceTree = "<group>"; };
+		24CAB76A1BEC51F900B0DDE0 /* TSZPurchaseAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZPurchaseAnnotationView.h; sourceTree = "<group>"; };
+		24CAB76B1BEC51F900B0DDE0 /* TSZPurchaseAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZPurchaseAnnotationView.m; sourceTree = "<group>"; };
+		24CAB76E1BEC523400B0DDE0 /* TSZDetailAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZDetailAnnotation.h; sourceTree = "<group>"; };
+		24CAB76F1BEC523400B0DDE0 /* TSZDetailAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZDetailAnnotation.m; sourceTree = "<group>"; };
+		24CAB7711BEC537400B0DDE0 /* TSZDetailAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZDetailAnnotationView.h; sourceTree = "<group>"; };
+		24CAB7721BEC537400B0DDE0 /* TSZDetailAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZDetailAnnotationView.m; sourceTree = "<group>"; };
+		24CAB7741BEC55E500B0DDE0 /* TSZDescribeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSZDescribeView.h; sourceTree = "<group>"; };
+		24CAB7751BEC55E500B0DDE0 /* TSZDescribeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSZDescribeView.m; sourceTree = "<group>"; };
+		24CAB7771BEC566300B0DDE0 /* TSZDescribeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSZDescribeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +110,7 @@
 		24CAB74F1BEBCA5C00B0DDE0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				24CAB76D1BEC521500B0DDE0 /* Details */,
 				24CAB7501BEBCA5C00B0DDE0 /* Controller */,
 				24CAB7531BEBCA5C00B0DDE0 /* Model */,
 				24CAB7541BEBCA5C00B0DDE0 /* Other */,
@@ -110,8 +131,12 @@
 		24CAB7531BEBCA5C00B0DDE0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				24CAB75E1BEBD4DA00B0DDE0 /* TSZAnnotation.h */,
-				24CAB75F1BEBD4DA00B0DDE0 /* TSZAnnotation.m */,
+				24CAB7671BEBE25600B0DDE0 /* TSZPurchase.h */,
+				24CAB7681BEBE25600B0DDE0 /* TSZPurchase.m */,
+				24CAB7641BEBE0D600B0DDE0 /* TSZPurchaseAnnotation.h */,
+				24CAB7651BEBE0D600B0DDE0 /* TSZPurchaseAnnotation.m */,
+				24CAB76A1BEC51F900B0DDE0 /* TSZPurchaseAnnotationView.h */,
+				24CAB76B1BEC51F900B0DDE0 /* TSZPurchaseAnnotationView.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +144,8 @@
 		24CAB7541BEBCA5C00B0DDE0 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				24CAB7611BEBDF9900B0DDE0 /* UIView+AdjustFrame.h */,
+				24CAB7621BEBDF9900B0DDE0 /* UIView+AdjustFrame.m */,
 				24CAB7551BEBCA5C00B0DDE0 /* AppDelegate.h */,
 				24CAB7561BEBCA5C00B0DDE0 /* AppDelegate.m */,
 			);
@@ -130,6 +157,20 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		24CAB76D1BEC521500B0DDE0 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				24CAB76E1BEC523400B0DDE0 /* TSZDetailAnnotation.h */,
+				24CAB76F1BEC523400B0DDE0 /* TSZDetailAnnotation.m */,
+				24CAB7711BEC537400B0DDE0 /* TSZDetailAnnotationView.h */,
+				24CAB7721BEC537400B0DDE0 /* TSZDetailAnnotationView.m */,
+				24CAB7741BEC55E500B0DDE0 /* TSZDescribeView.h */,
+				24CAB7751BEC55E500B0DDE0 /* TSZDescribeView.m */,
+				24CAB7771BEC566300B0DDE0 /* TSZDescribeView.xib */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CAB7481BEBC81100B0DDE0 /* LaunchScreen.storyboard in Resources */,
+				24CAB7781BEC566300B0DDE0 /* TSZDescribeView.xib in Resources */,
 				24CAB7451BEBC81100B0DDE0 /* Assets.xcassets in Resources */,
 				24CAB7431BEBC81100B0DDE0 /* Main.storyboard in Resources */,
 			);
@@ -204,9 +246,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				24CAB7581BEBCA5C00B0DDE0 /* ViewController.m in Sources */,
+				24CAB76C1BEC51F900B0DDE0 /* TSZPurchaseAnnotationView.m in Sources */,
+				24CAB7631BEBDF9900B0DDE0 /* UIView+AdjustFrame.m in Sources */,
+				24CAB7761BEC55E500B0DDE0 /* TSZDescribeView.m in Sources */,
+				24CAB7731BEC537400B0DDE0 /* TSZDetailAnnotationView.m in Sources */,
+				24CAB7691BEBE25600B0DDE0 /* TSZPurchase.m in Sources */,
 				24CAB73A1BEBC81000B0DDE0 /* main.m in Sources */,
-				24CAB7601BEBD4DA00B0DDE0 /* TSZAnnotation.m in Sources */,
 				24CAB7591BEBCA5C00B0DDE0 /* AppDelegate.m in Sources */,
+				24CAB7661BEBE0D600B0DDE0 /* TSZPurchaseAnnotation.m in Sources */,
+				24CAB7701BEC523400B0DDE0 /* TSZDetailAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

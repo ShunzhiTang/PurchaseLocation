@@ -1,0 +1,36 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "bg_map_cell.png",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 1,
+          "height" : 11
+        },
+        "cap-insets" : {
+          "bottom" : 40,
+          "top" : 18,
+          "right" : 368,
+          "left" : 17
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "bg_map_cell@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
